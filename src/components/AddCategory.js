@@ -18,7 +18,7 @@ export const AddCategory = ({setCategories}) => {
             setInputValue('');
         }
     }
-
+        
     return (
         
         <form onSubmit={handleSubmit}>
@@ -33,6 +33,7 @@ export const AddCategory = ({setCategories}) => {
         
     )
 }
+
 
 
 AddCategory.propTypes ={
